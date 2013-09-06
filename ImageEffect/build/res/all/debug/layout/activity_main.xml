@@ -1,0 +1,279 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity">
+
+    <LinearLayout android:id="@+id/layoutmain"
+        android:layout_width="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_height="wrap_content">
+        <Button android:id="@+id/btn_pick_img"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:text="Pick Image"
+            android:onClick="buttonClicked"
+            android:layout_width="wrap_content" />
+     </LinearLayout>
+    <ImageView
+        android:id="@+id/effect_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/image"
+        android:layout_below="@+id/layoutmain"
+        android:layout_above="@+id/horizontalScrollView"
+/>
+
+    <HorizontalScrollView
+        android:id="@+id/horizontalScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/effect_black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
+                android:onClick="buttonClicked"
+                android:src="@drawable/effect_black" />
+
+            <ImageView
+                android:id="@+id/effect_boost_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
+                android:onClick="buttonClicked"
+                android:src="@drawable/effect_boost_1" />
+            <ImageView
+                android:id="@+id/effect_boost_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
+                android:onClick="buttonClicked"
+                android:src="@drawable/effect_boost_2" />
+            <ImageView
+                android:id="@+id/effect_boost_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
+                android:onClick="buttonClicked"
+                android:src="@drawable/effect_boost_3" />
+            <ImageView
+                android:id="@+id/effect_brightness"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
+                android:onClick="buttonClicked"
+                android:src="@drawable/effect_brightness" />
+            <ImageView
+                android:id="@+id/effect_color_blue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
+                android:onClick="buttonClicked"
+                android:src="@drawable/effect_color_blue" />
+            <ImageView
+                android:id="@+id/effect_color_green"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
+                android:onClick="buttonClicked"
+                android:src="@drawable/effect_color_green" />
+            <ImageView
+                android:id="@+id/effect_color_red"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
+                android:onClick="buttonClicked"
+                android:src="@drawable/effect_color_red" />
+            <ImageView
+                android:id="@+id/effect_color_depth_32"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
+                android:onClick="buttonClicked"
+                android:src="@drawable/effect_color_depth_32" />
+            <ImageView
+                android:id="@+id/effect_color_depth_64"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
+                android:onClick="buttonClicked"
+                android:src="@drawable/effect_color_depth_64" />
+
+            <ImageView
+                android:id="@+id/effect_contrast"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
+                android:onClick="buttonClicked"
+                android:src="@drawable/effect_contrast" />
+            <ImageView
+                android:id="@+id/effect_emboss"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
+                android:onClick="buttonClicked"
+                android:src="@drawable/effect_emboss" />
+            <ImageView
+                android:id="@+id/effect_engrave"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
+                android:onClick="buttonClicked"
+                android:src="@drawable/effect_engrave" />
+            <ImageView
+                android:id="@+id/effect_flea"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
+                android:onClick="buttonClicked"
+                android:src="@drawable/effect_flea" />
+            <ImageView
+                android:id="@+id/effect_gamma"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
+                android:onClick="buttonClicked"
+                android:src="@drawable/effect_gamma" />
+            <ImageView
+                android:id="@+id/effect_gaussian_blue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
+                android:onClick="buttonClicked"
+                android:src="@drawable/effect_gaussian_blue" />
+            <ImageView
+                android:id="@+id/effect_grayscale"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
+                android:onClick="buttonClicked"
+                android:src="@drawable/effect_grayscale" />
+            <!--<ImageView-->
+                <!--android:id="@+id/effect_highlight"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:padding="2dp"-->
+                <!--android:onClick="buttonClicked"-->
+                <!--android:src="@drawable/effect_highlight" />-->
+            <ImageView
+                android:id="@+id/effect_hue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
+                android:onClick="buttonClicked"
+                android:src="@drawable/effect_hue" />
+            <ImageView
+                android:id="@+id/effect_invert"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
+                android:onClick="buttonClicked"
+                android:src="@drawable/effect_invert" />
+            <ImageView
+                android:id="@+id/effect_mean_remove"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
+                android:onClick="buttonClicked"
+                android:src="@drawable/effect_mean_remove" />
+            <!--<ImageView-->
+                <!--android:id="@+id/effect_reflaction"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:padding="2dp"-->
+                <!--android:onClick="buttonClicked"-->
+                <!--android:src="@drawable/effect_reflaction" />-->
+            <ImageView
+                android:id="@+id/effect_round_corner"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
+                android:onClick="buttonClicked"
+                android:src="@drawable/effect_round_corner" />
+            <ImageView
+                android:id="@+id/effect_saturation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
+                android:onClick="buttonClicked"
+                android:src="@drawable/effect_saturation" />
+            <ImageView
+                android:id="@+id/effect_sepia"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
+                android:onClick="buttonClicked"
+                android:src="@drawable/effect_sepia" />
+            <ImageView
+                android:id="@+id/effect_sepia_blue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
+                android:onClick="buttonClicked"
+                android:src="@drawable/effect_sepia_blue" />
+            <ImageView
+                android:id="@+id/effect_sepia_green"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
+                android:onClick="buttonClicked"
+                android:src="@drawable/effect_sepia_green" />
+            <ImageView
+                android:id="@+id/effect_sheding_cyan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
+                android:onClick="buttonClicked"
+                android:src="@drawable/effect_sheding_cyan" />
+            <ImageView
+                android:id="@+id/effect_sheding_green"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
+                android:onClick="buttonClicked"
+                android:src="@drawable/effect_sheding_green" />
+            <ImageView
+                android:id="@+id/effect_sheding_yellow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
+                android:onClick="buttonClicked"
+                android:src="@drawable/effect_sheding_yellow" />
+            <ImageView
+                android:id="@+id/effect_smooth"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
+                android:onClick="buttonClicked"
+                android:src="@drawable/effect_smooth" />
+            <ImageView
+                android:id="@+id/effect_tint"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
+                android:onClick="buttonClicked"
+                android:src="@drawable/effect_tint" />
+            <ImageView
+                android:id="@+id/effect_watermark"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
+                android:onClick="buttonClicked"
+                android:src="@drawable/effect_watermark" />
+        </LinearLayout>
+
+
+    </HorizontalScrollView>
+</RelativeLayout>
+<!-- From: file:/Users/indianic/AndroidStudioProjects/ImageEffectProject/ImageEffect/src/main/res/layout/activity_main.xml -->

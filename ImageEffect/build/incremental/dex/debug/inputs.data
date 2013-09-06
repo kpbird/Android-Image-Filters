@@ -1,0 +1,17 @@
+# incremental data. DO NOT EDIT.
+# format is <lastModified> <length> <SHA-1> <path>
+# Encoding is UTF-8
+1376888353000 353 291774c0e01790a15166c9e1ccbc1b94948fa964 /Users/indianic/AndroidStudioProjects/ImageEffectProject/ImageEffect/build/classes/debug/com/kpbird/imageeffect/BuildConfig.class
+1377839099000 1787 b7126ec15174c809c996bb3a333b8646c9a24cf8 /Users/indianic/AndroidStudioProjects/ImageEffectProject/ImageEffect/build/classes/debug/com/kpbird/imageeffect/R$id.class
+1377839099000 443 ea6a25b9b956f98c0cc8ee4a76541b49f207f89f /Users/indianic/AndroidStudioProjects/ImageEffectProject/ImageEffect/build/classes/debug/com/kpbird/imageeffect/R$style.class
+1377839099000 484 eef755b0aae2f3d7b43db9594082a56f50421f2e /Users/indianic/AndroidStudioProjects/ImageEffectProject/ImageEffect/build/classes/debug/com/kpbird/imageeffect/R$string.class
+1376888353000 352 9c620a0c34b904c7115bc1ab4d54d6232955149d /Users/indianic/AndroidStudioProjects/ImageEffectProject/ImageEffect/build/classes/debug/com/kpbird/imageeffect/R$attr.class
+1378366069000 7843 2f5d3a8d40f662f538931550564281c1a7c1e134 /Users/indianic/AndroidStudioProjects/ImageEffectProject/ImageEffect/build/classes/debug/com/kpbird/imageeffect/MainActivity.class
+1377595507000 2677 00c88268541f583f0e226e86240f5a095fcfda78 /Users/indianic/AndroidStudioProjects/ImageEffectProject/ImageEffect/build/classes/debug/com/kpbird/imageeffect/ConvolutionMatrix.class
+1376888353000 473 27351a68951c9014ddf5a43951629b7146d2cde7 /Users/indianic/AndroidStudioProjects/ImageEffectProject/ImageEffect/build/classes/debug/com/kpbird/imageeffect/R$dimen.class
+1377839099000 400 ac50725715aa798afdb653bac79256cbc62b9b41 /Users/indianic/AndroidStudioProjects/ImageEffectProject/ImageEffect/build/classes/debug/com/kpbird/imageeffect/R$menu.class
+1377595508000 17667 3f28cb576eafe78585d3293b5f45801faf903884 /Users/indianic/AndroidStudioProjects/ImageEffectProject/ImageEffect/build/classes/debug/com/kpbird/imageeffect/ImageFilters.class
+1377839099000 415 a164e7701d8cbb7be900056842780f2cfa6baf7e /Users/indianic/AndroidStudioProjects/ImageEffectProject/ImageEffect/build/classes/debug/com/kpbird/imageeffect/R$layout.class
+1377839099000 717 3698b55e63b1744d43e168fd4411f3fa1aa6a1cd /Users/indianic/AndroidStudioProjects/ImageEffectProject/ImageEffect/build/classes/debug/com/kpbird/imageeffect/R.class
+1377604293000 1842 8954e9d306874b49b03382966389b05c9068d7c8 /Users/indianic/AndroidStudioProjects/ImageEffectProject/ImageEffect/build/classes/debug/com/kpbird/imageeffect/R$drawable.class
+1375162055000 563264 44ec51e9d395a47aab135e5e1b556c0007442156 /Applications/Android Studio.app/sdk/extras/android/m2repository/com/android/support/support-v4/18.0.0/support-v4-18.0.0.jar
